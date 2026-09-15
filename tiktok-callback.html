@@ -1,0 +1,5 @@
+<!doctype html><html><head><meta charset="utf-8"><title>CMO.ai — secure relay</title></head><body><script>
+var q = location.search.charAt(0) === '?' ? location.search.slice(1) : location.search;
+var target = 'http://localhost:5000/api/social/tiktok/callback' + (q ? '?' + q : '');
+window.location.replace(target);
+</script><noscript><p>Please enable JavaScript to finish connecting CMO.ai with TikTok.</p></noscript></body></html>
